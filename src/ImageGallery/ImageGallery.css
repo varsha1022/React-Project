@@ -1,0 +1,21 @@
+#galleryDiv{
+    background-image: url("./Images/blue_image.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    position: sticky;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+#imageContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:0.5rem
+
+}
+img{
+    box-shadow: 0 10px 80px -10px rgb(175, 206, 247);
+    border-radius: 10px;
+    cursor: pointer;
+}

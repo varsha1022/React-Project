@@ -35,9 +35,10 @@ import React, {useState,useEffect} from "react"
 // import CounterReducer from "./useReducer/CounterReducer"
 // import ReduxCounter from "./Redux/ReduxCounter"
 // import ReduxForm from "./Redux/ReduxBankAccount/ReduxForm"
-import ReduxAccount from "./Redux/ReduxBankAccount/ReduxAccount"
+// import ReduxAccount from "./Redux/ReduxBankAccount/ReduxAccount"
 // import Icons from  "./Icons"
 // import './App.css'
+import ImageGallery from "./ImageGallery/ImageGallery.jsx"
 
 
 function App() {
@@ -150,8 +151,9 @@ const faqsList = [
       {/* <CounterReducer/> */}
       {/* <ReduxCounter/> */}
       {/* <ReduxForm/> */}
-      <ReduxAccount/>
+      {/* <ReduxAccount/> */}
     {/* <Icons/> */}
+    <ImageGallery/>
     </>
   )
 }
