@@ -1,0 +1,37 @@
+.bgContainer{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size:cover;
+    height:60vh;
+    width: 50%;
+    position: relative;
+    left:25vw;
+    color:aliceblue;
+    margin-top: 5rem;
+}
+.container{
+    position: relative;
+    top:30vh
+}
+.likeBtn,.commentBtn,.shareBtn{
+    border-radius: 8px;
+    border: none;
+    height:2rem;
+    margin-right:1.2rem;
+    color:#ffffff;
+    position: relative;
+    left:1rem
+}
+
+.likeBtn{
+    background-color:#eab308 ;
+    
+}
+.commentBtn{
+    background-color:#ffffff ;
+    color:#323f4b
+}
+.shareBtn{
+    background-color:#1d4ed8 ;
+}

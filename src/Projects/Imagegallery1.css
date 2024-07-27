@@ -1,0 +1,31 @@
+#galleryDiv{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    text-align: center;
+    background-color:rgb(242, 212, 218);
+}
+#imageContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:0.5rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+
+}
+
+img{
+    box-shadow: 0 10px 80px -10px rgb(158, 198, 251);
+    border-radius: 10px;
+
+}
+input{
+    outline: none;
+    padding-left: 10px;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}

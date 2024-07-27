@@ -1,0 +1,33 @@
+.bgContainer{
+    background-color:#0f172a;
+    height:60vh;
+    width:50%;
+    margin:100px;
+    margin-left:350px;
+    position: fixed;
+    /* text-align: center; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.imageContainer{
+    display: flex;
+    padding: 2rem;
+    margin-top:2rem
+
+}
+.img1,.img2{
+    height:200px;
+    width:200px
+}
+.head{
+    color:#ffffff;
+    font-size: 2rem;
+    /* margin-top: 3rem; */
+    position: relative;
+    top:35px;
+    text-align: center;
+}

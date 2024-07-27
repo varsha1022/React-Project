@@ -1,0 +1,19 @@
+.divContainer{
+    background-color: aqua;
+    height:80vh;
+    text-align: left;
+}
+.div{
+    color:brown
+}
+.head2{
+    border: 2px solid;
+    padding: 2rem;
+    margin-top: 7rem;
+    background-color: chartreuse;
+}
+.head1{
+    background-color:blue;
+    color:white;
+    border:5px solid rgb(122, 5, 5)
+}
